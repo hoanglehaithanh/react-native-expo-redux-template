@@ -7,10 +7,7 @@ module.exports = function (api) {
         "module-resolver",
         {
           alias: {
-            // This needs to be mirrored in tsconfig.json
-            Localization: "./src/Localization",
-            Screens: "./src/Screens",
-            Components: "./src/Components",
+            "@": "./src",
           },
         },
       ],
