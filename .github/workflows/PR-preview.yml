@@ -1,4 +1,4 @@
-name: update
+name: "PR preview"
 on: pull_request
 
 jobs:
