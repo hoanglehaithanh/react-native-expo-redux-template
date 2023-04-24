@@ -1,4 +1,4 @@
-name: update
+name: Build Expo OTA
 on: push
 
 jobs:

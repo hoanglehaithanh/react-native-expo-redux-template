@@ -1,4 +1,4 @@
-name: "PR preview"
+name: Pull Request Preview
 on: pull_request
 
 jobs:
