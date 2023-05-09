@@ -42,6 +42,13 @@ The template's file structure is organized as follows:
 
   - `Theme/`: This folder contains files related to the app's visual theme, such as colors, typography, and spacing.
 
+## Known Issues
+
+```js
+ApiV2Error: Not Authorized.
+```
+Reason and how to remove this issue: https://github.com/expo/expo-cli/issues/2436#issuecomment-1308534521
+
 
 ## Contributing
 
