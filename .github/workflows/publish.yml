@@ -1,7 +1,7 @@
 name: Publish to NPM
 on:
   release:
-    types: [created]
+    types: [published]
 
 jobs:
   build:
@@ -14,12 +14,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
-          registry-url: https://registry.npmjs.org
+          registry-url: https://registry.npmjs.org/
 
       - name: Install dependencies
         run: yarn
 
       - name: Publish to NPM
-        run: yarn npm publish --access public
+        run: yarn npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
